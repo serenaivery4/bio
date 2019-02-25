@@ -1,0 +1,65 @@
+h1{
+	font-family: 'Germania One', cursive;
+	padding: 10px;
+}
+h2{
+	font-family: 'Germania One', cursive;
+}
+p{
+	font-family: ariel; 
+	font-size: 18px; 
+}
+
+img{
+	background-image: linear-gradient(purple,blue);
+	border: 2.5px solid red;
+	width:300px ;
+	height:300px;
+	padding: 10px;
+	position: center;
+}
+body{
+	background-image:radial-gradient(circle,white, grey, white, darkgrey); 
+}
+iframe{
+	scroll-behavior: auto;
+
+}
+
+.header{
+	border: 5px solid red;
+	background-image: linear-gradient(purple, blue);
+	color:white;
+	padding: 5px;
+}
+.footer{
+	border: 5px solid red;
+	background-image: linear-gradient(purple, blue);
+	color:white;
+	padding: 5px;
+}
+
+
+.list-group{
+    max-height: 400px;
+    margin-bottom: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+}
+.vid{
+	scroll-behavior: auto;
+}
+.gif{
+	width: 600px;
+	height: 380px;
+	margin: 5px;
+	background-image: none;
+	border: none;
+}
+.awards{
+	background-color: #3D3D3D;
+}
+img.album:hover{
+	width: 350px;
+	height: 350px;
+}
